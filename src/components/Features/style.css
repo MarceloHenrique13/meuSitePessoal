@@ -1,0 +1,25 @@
+.wrapper_home_feature_card {
+    margin-top: 40px;
+}
+
+.wrapper_home_feature_card .content {
+    padding: 20px 40px;
+    background: #eee;
+    text-align: center;
+}
+
+.wrapper_home_feature_card .content i {
+    font-size: 35px;
+    color: #2cc762;
+}
+
+.wrapper_home_feature_card .card_button {    
+    color: #2cc762;    
+}
+
+.wrapper_home_feature_card .card_button:hover {    
+    color: #208d46;
+    text-decoration: none;
+    transition: 0.5s;
+}
+

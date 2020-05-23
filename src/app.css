@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.wrapper_home .wrapper_home_profile{
+    margin-top: 20%;
+    margin-left: 130px;
+}
+
+
+.wrapper_home .wrapper_home_profile h2{
+    color: #2cc762;
+    font-size: 45px;
+}
+
+.wrapper_home .wrapper_home_profile p{
+    color: #000;
+    font-size: 20px;
+}
+
+.wrapper_home .wrapper_home_profile p:last-child{
+    color: #000;
+    font-size: 16px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* IPAD PRO */
+@media (max-width: 1024px){
+
+    .wrapper_home .wrapper_home_profile{
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+    
+    
+    .wrapper_home .wrapper_home_profile h2{
+        color: #2cc762;
+        font-size: 45px;
+    }
+    
+    .wrapper_home .wrapper_home_profile p{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .wrapper_home .wrapper_home_profile p:last-child{
+        color: #000;
+        font-size: 16px;    
+    }
+}
+
+
+
+/* IPAD */
+@media (max-width: 768px){
+
+    .wrapper_home .wrapper_home_profile{
+        margin-top: 15%;
+        margin-left: 0%;
+    }
+    
+    
+    .wrapper_home .wrapper_home_profile h2{
+        color: #2cc762;
+        font-size: 35px;
+    }
+    
+    .wrapper_home .wrapper_home_profile p{
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .wrapper_home .wrapper_home_profile p:last-child{
+        color: #000;
+        font-size: 16px;    
+    }
+}
+
+
+/* IPHONE X */
+@media (max-width: 375px){
+
+    .wrapper_home .wrapper_home_profile{
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    
+    
+    .wrapper_home .wrapper_home_profile h2{
+        color: #2cc762;
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .wrapper_home .wrapper_home_profile p{
+        color: #000;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .wrapper_home .wrapper_home_profile p:last-child{
+        color: #000;
+        font-size: 16px;
+        text-align: center;    
+    }
+}
